@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Smart Scapes - Professional Landscaping Services, TX">
+    <title>Free Quote | Smart Scapes</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="js/main.js" defer></script>
+</head>
+
+<body style="background-color: #F1F8E9;">
+
+    <app-header></app-header>
+
+    <main>
+        <section class="hero-section d-flex align-items-center text-white"
+            style="background:linear-gradient(rgba(44, 44, 44, 0.5), rgba(0,0,0,0.4)), url('assets/images/cover-common.jpg'); background-size: cover; height: 50vh; background-position: center">
+            <div class="container text-center">
+                <h1 class="display-4 fw-bold" style="font-family: 'Montserrat', sans-serif;">Let's Build Your Dream Yard
+                </h1>
+            </div>
+        </section>
+
+        <section class="py-5">
+            <div style="background-color: #2F5233;">
+                <div class="container text-center">
+                    <h4 class="text-white p-2" style="font-family: 'Montserrat', sans-serif;">Fill out the form below
+                        and we'll get back to you within 24 hours.</h4>
+                </div>
+            </div>
+        </section>
+
+        <section class="py-5">
+            <div class="container">
+                <div class="row g-5">
+                    <div class="col-lg-8">
+                        <div class="bg-white p-4 p-lg-5 rounded shadow-sm">
+                            <h3 class="font-heading mb-4">Project Details</h3>
+
+                            <form action="" class="row g-3">
+                                <div class="col-md-6">
+                                    <label for="firstName" class="form-label fw-bold input-title">First Name
+                                        <i>(required)</i></label>
+                                    <input type="text" class="form-control" id="textFirstName" placeholder="John"
+                                        required>
+                                </div>
+
+                                <div class="col-md-6">
+                                    <label for="lastName" class="form-label fw-bold input-title">Last Name
+                                        <i>(required)</i></label>
+                                    <input type="text" class="form-control" id="textLastName" placeholder="Deo"
+                                        required>
+                                </div>
+
+                                <div class="col-md-6">
+                                    <label for="email" class="form-label fw-bold input-title">Email
+                                        <i>(required)</i></label>
+                                    <input type="email" class="form-control" id="textEmail"
+                                        placeholder="example@gmail.com" required>
+                                </div>
+
+                                <div class="col-md-6">
+                                    <label for="phone" class="form-label fw-bold input-title">Phone
+                                        <i>(required)</i></label>
+                                    <input type="phone" class="form-control" id="textPhone" placeholder="(512) 555-0123"
+                                        required>
+                                </div>
+
+                                <div class="col-md-12">
+                                    <label for="addressLine1" class="form-label fw-bold input-title">Address Line 1
+                                        <i>(required)</i></label>
+                                    <input type="text" class="form-control" id="textAddressLine1"
+                                        placeholder="123 Main St" required>
+                                </div>
+
+                                <div class="col-md-12">
+                                    <label for="addressLine2" class="form-label fw-bold input-title">Address Line 2
+                                        <i>(optanal)</i></label>
+                                    <input type="text" class="form-control" id="textAddressLine2"
+                                        placeholder="123 Main St">
+                                </div>
+
+                                <div class="col-md-6">
+                                    <label for="city" class="form-label fw-bold input-title">City
+                                        <i>(required)</i></label>
+                                    <input type="text" class="form-control" id="textCity" placeholder="" required>
+                                </div>
+
+                                <div class="col-md-6">
+                                    <label for="state" class="form-label fw-bold input-title">State <i>(required)</i></label>
+                                    <input type="text" class="form-control" id="textState" placeholder="" required>
+                                </div>
+
+                                <div class="col-lg-4 col-md-6">
+                                    <label for="zipCode" class="form-label fw-bold input-title">Zip <i>(required)</i></label>
+                                    <input type="text" class="form-control" id="textAddressLine1" placeholder="12345"
+                                        required>
+                                </div>
+
+                                <div class="col-12">
+                                    <label for="message" class="form-label fw-bold input-title">What services are you
+                                        interested in? <i>(required)</i></label>
+                                    <textarea class="form-control" id="message" rows="5"
+                                        placeholder="Tell us about your vision... (e.g. I want a stone patio with a fire pit)" required></textarea>
+                                </div>
+
+                                <div class="col-12 mt-4">
+                                    <button type="submit"
+                                        style="background: linear-gradient(180deg, rgba(245, 73, 39, 1) 0%, rgba(255, 172, 117, 1) 100%)"
+                                        class="btn w-100 py-3 fw-bold text-white rounded shadow hover-lift">
+                                        Get My Free Quote <i class="fas fa-paper-plane ms-2"></i>
+                                    </button>
+                                    <p class="text-center text-muted small mt-3 mb-0">
+                                        <i class="fas fa-lock me-1"></i> We respect your privacy. Your data is never
+                                        shared.
+                                    </p>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4">
+                        <div class="quote-sidebar p-4 p-lg-5 h-100">
+                            <h4 class="text-center border-bottom border-light pb-2 mb-5"
+                                style="font-family: 'Montserrat', sans-serif;">What Happens Next?</h4>
+
+                            <div class="d-flex mb-3">
+                                <div class="sidebar-icon"><i class="fas fa-satellite"></i></div>
+                                <div class="">
+                                    <h5 class="fw-bold">1. Review</h5>
+                                    <p class="text-white-50">We analyze your property via satellite imagery.</p>
+                                </div>
+                            </div>
+
+                            <div class="d-flex">
+                                <div class="sidebar-icon"><i class="fas fa-phone-alt"></i></div>
+                                <div class="">
+                                    <h5 class="fw-bold">1. Call</h5>
+                                    <p class="text-white-50">We discuss your vision in a brief 10-min call.</p>
+                                </div>
+                            </div>
+
+                            <div class="d-flex">
+                                <div class="sidebar-icon"><i class="fas fa-file-invoice-dollar"></i></div>
+                                <div class="">
+                                    <h5 class="fw-bold">3. Estimate</h5>
+                                    <p class="text-white-50">You receive a detailed proposal & timeline.</p>
+                                </div>
+                            </div>
+
+                            <div class="mt-5">
+                                <h4 class="border-bottom border-light pb-2 mb-3"
+                                    style="font-family: 'Montserrat', sans-serif;">Prefer to talk?</h4>
+
+                                <p class="text-white-50">Call us directly:</p>
+                                <a href="tel:5125550123" class="display-6 fw-bold text-white text-decoration-none d-block mb-3">(512) 555-0123</a>
+
+                                <p class="text-white-50">Email us:</p>
+                                <a href="mailto:hello@smartscapes.com" class="text-white fw-bold text-decoration-none">hello@smartscapes.com</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <app-footer></app-footer>
+    </main>
+
+</body>
+
+</html>
