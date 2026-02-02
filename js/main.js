@@ -3,8 +3,8 @@ class AppHeader extends HTMLElement {
         this.innerHTML = `
         <nav class="navbar navbar-expand-lg custom-bg sticky-top" id="myCustomNav">
             <div class="container">
-                <a href="index.html" class="navbar-brand">
-                    <img src="assets/images/logo.png" alt="Smart Scapes" width="200px" height="50px">
+                <a href="index.html" class="navbar-brand font-heading">
+                    Mayes & Son <i class="bi bi-droplet-half"></i>
                 </a>
 
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
@@ -71,15 +71,15 @@ class AppFooter extends HTMLElement{
                 <div class="container py-5">
                     <div class="row g-4">
                         <div class="col-lg-3 col-md-6 col-sm-12">
-                            <a href="#">
-                                <img src="assets/images/logo.png" class="footer-logo" alt="">
+                            <a href="#" class="text-decoration-none">
+                                <h4 class="font-heading mb-3">Mayes & Son <i class="bi bi-droplet-half"></i></h4>
                             </a>
                             <p class="mt-2 text-light small">Transforming outdoor spaces in USA into sustainable, beautiful
                                 sanctuaries since 2015.</p>
 
                             <div class="d-flex gap-3 py-4">
                                 <div class="social-block hover-lift">
-                                    <a href="#" class="cocial-icon"><i class="bi bi-facebook text-white fs-2"></i></a>
+                                    <a href="https://www.facebook.com/share/17sjtjir5L/" class="cocial-icon"><i class="bi bi-facebook text-white fs-2"></i></a>
                                 </div>
 
                                 <div class="social-block hover-lift">
@@ -87,7 +87,7 @@ class AppFooter extends HTMLElement{
                                 </div>
 
                                 <div class="social-block hover-lift">
-                                    <a href="#"><i class="bi bi-instagram text-white fs-2"></i></a>
+                                    <a href="https://www.instagram.com/p/DLhrWWRxP52/?igsh=MXE5ZHN5dWxubzl6NA=="><i class="bi bi-instagram text-white fs-2"></i></a>
                                 </div>
 
                                 <div class="social-block hover-lift">
@@ -112,16 +112,16 @@ class AppFooter extends HTMLElement{
                                 <li><a href="services.html" class="text-white-50 text-decoration-none">Lawn Maintenance</a></li>
                                 <li><a href="services.html" class="text-white-50 text-decoration-none">Garden Designing</a></li>
                                 <li><a href="services.html" class="text-white-50 text-decoration-none">Hardscaping</a></li>
-                                <li><a href="services.html" class="text-white-50 text-decoration-none">Commercial Care</a></li>
+                                <li><a href="services.html" class="text-white-50 text-decoration-none">Irrigation & Sprinklers</a></li>
                             </ul>
                         </div>
 
                         <div class="col-lg-3 col-md-6 col-sm-12 px-5">
                             <h5 class="mb-4" style="font-family: 'Montserrat', sans-serif; font-weight: 600;">CONTACT US</h5>
                             <ul class="list-unstyled gap-2 d-flex flex-column">
-                                <li><a href="index.html" class="text-white-50 text-decoration-none "><i class="bi bi-geo-alt-fill"></i> 1060, West Addison Street, Wrigley Field, Chicago</a></li>
-                                <li><a href="tel:5125550123" class="text-white-50 text-decoration-none"><i class="bi bi-telephone"></i> (512) 555-0123</a></li>
-                                <li><a href="mailto:hello@smartscapes.com" class="text-white-50 text-decoration-none"><i class="bi bi-envelope"></i> hello@smartscapes.com</a></li>
+                                <li><a href="index.html" class="text-white-50 text-decoration-none "><i class="bi bi-geo-alt-fill"></i> 3926 East Paradise Avenue</a></li>
+                                <li><a href="tel:5125550123" class="text-white-50 text-decoration-none"><i class="bi bi-telephone"></i> +1 559-747-7804</a></li>
+                                <li><a href="mailto:hello@smartscapes.com" class="text-white-50 text-decoration-none"><i class="bi bi-envelope"></i> hello@mayes&son.com</a></li>
                             </ul>
                         </div>
                     </div>
